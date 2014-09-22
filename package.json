@@ -1,13 +1,13 @@
 {
   "name": "cldr-data",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.3",
   "keywords": [
     "unicode",
     "cldr",
     "json",
     "data"
   ],
-  "description": "Npm module for Unicode CLDR JSON data",
+  "description": "Mirror for the Unicode CLDR JSON data",
   "homepage": "https://github.com/rxaviers/cldr-data",
   "repository": {
     "type": "git",
@@ -15,17 +15,22 @@
   },
   "licenses": [
     {
-      "type": "MIT",
-      "url": "https://github.com/rxaviers/cldr-data/blob/master/LICENSE-MIT"
+      "type": "Apache",
+      "url": "https://github.com/rxaviers/cldr-data/blob/master/apache-license.txt"
+    },
+    {
+      "type": "Apache",
+      "url": "https://github.com/rxaviers/cldr-data/blob/master/icu-license.txt"
+    },
+    {
+      "type": "Apache",
+      "url": "https://github.com/rxaviers/cldr-data/blob/master/unicode-license.txt"
     }
   ],
-  "author": {
+  "maintainer": {
     "name": "Rafael Xavier de Souza",
     "email": "rxaviers@gmail.com",
     "url": "http://rafael.xavier.blog.br"
-  },
-  "scripts": {
-    "install": "node install.js"
   },
   "dependencies": {},
   "devDependencies": {}
