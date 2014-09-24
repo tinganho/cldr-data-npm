@@ -1,4 +1,4 @@
-# Npm's cldr-data My Application Example
+# Npm's cldr-data - My Application Example
 
 This example demonstrates that no action is needed from end application part.
 
