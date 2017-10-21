@@ -117,7 +117,7 @@ cldrDownloader(
           "override.");
         return console.log(error.message);
       } else {
-        console.error("Whops", error.message);
+        console.error(error.stack);
         process.exit(1);
       }
     }
