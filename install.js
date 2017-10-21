@@ -10,7 +10,7 @@
 
 var coverage, parentPackage, peerPackages, srcUrl;
 
-var cldrDownloader = require("cldr-data-downloader");
+var cldrDownloader = require("cldr-data-downloader-test");
 var glob = require("glob").sync;
 var path = require("path");
 var child_process = require('child_process');
