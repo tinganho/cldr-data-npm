@@ -1,5 +1,5 @@
 node_modules/
-
+package-lock.json
 # CLDR downloaded files.
 .ignored-*
 availableLocales.json
