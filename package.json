@@ -1,5 +1,5 @@
 {
-  "name": "cldr-data",
+  "name": "cldr-data-test",
   "version": "31.0.2",
   "keywords": [
     "unicode",
@@ -19,18 +19,13 @@
       "url": "https://github.com/rxaviers/cldr-data-npm/blob/master/LICENSE-MIT"
     }
   ],
-  "author": {
-    "name": "Rafael Xavier de Souza",
-    "email": "rxaviers@gmail.com",
-    "url": "http://rafael.xavier.blog.br"
-  },
   "main": "index.js",
   "scripts": {
     "install": "node install.js",
     "test": "grunt && node test/index.js"
   },
   "dependencies": {
-    "cldr-data-downloader": "tinganho/cldr-data-downloader#master",
+    "cldr-data-downloader-test": "^0.3.2",
     "glob": "5.x.x"
   },
   "devDependencies": {
