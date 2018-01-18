@@ -26,7 +26,8 @@
   },
   "dependencies": {
     "cldr-data-downloader-test": "^0.3.3",
-    "glob": "^5.0.15"
+    "glob": "^5.0.15",
+    "q": "^1.5.1"
   },
   "devDependencies": {
     "grunt": "0.4.x",
