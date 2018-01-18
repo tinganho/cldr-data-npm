@@ -25,7 +25,7 @@
     "test": "grunt && node test/index.js"
   },
   "dependencies": {
-    "cldr-data-downloader-test": "^0.3.3",
+    "cldr-data-downloader-test": "git://github.com/tinganho/cldr-data-downloader.git#master",
     "glob": "^5.0.15",
     "q": "^1.5.1"
   },
